@@ -26,8 +26,8 @@ export const Container = styled.div`
       transform: translateX(0);
     }
 
-    &.scrollOpen .action--close {
-      display: none;
+    &.open .action--close {
+      display: block;
     }
   }
 
